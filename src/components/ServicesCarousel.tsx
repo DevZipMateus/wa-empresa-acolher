@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -61,8 +62,11 @@ const ServicesCarousel = () => {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <Carousel
+            opts={{
+              align: "start",
+            }}
             plugins={[plugin.current]}
             className="w-full"
             onMouseEnter={plugin.current.stop}
@@ -70,20 +74,26 @@ const ServicesCarousel = () => {
           >
             <CarouselContent>
               {images.map((image, index) => (
-                <CarouselItem key={index}>
-                  <div className="relative aspect-video w-full overflow-hidden rounded-lg shadow-lg">
-                    <img
-                      src={image.src}
-                      alt={image.alt}
-                      className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="p-0">
+                        <div className="relative aspect-video w-full overflow-hidden rounded-lg">
+                          <img
+                            src={image.src}
+                            alt={image.alt}
+                            className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                        </div>
+                      </CardContent>
+                    </Card>
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="left-4" />
-            <CarouselNext className="right-4" />
+            <CarouselPrevious />
+            <CarouselNext />
           </Carousel>
         </div>
 
