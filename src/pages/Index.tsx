@@ -5,6 +5,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import ServicesCarousel from '@/components/ServicesCarousel';
 
 const Index = () => {
   return (
@@ -123,6 +124,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Services Carousel */}
+      <ServicesCarousel />
 
       {/* Planos Preview */}
       <section className="py-20 bg-muted/30">
