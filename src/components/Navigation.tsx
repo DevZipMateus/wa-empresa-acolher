@@ -31,13 +31,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">WA</span>
-            </div>
-            <div className="hidden md:block">
-              <h1 className="text-xl font-bold text-foreground">WA Empresa Funerária</h1>
-              <p className="text-sm text-muted-foreground">Funerária Santa Gertrudes</p>
-            </div>
+            <img 
+              src="/lovable-uploads/fd866535-ad06-4645-8412-5fb9c247e28d.png" 
+              alt="WA Empresa Funerária - Funerária Santa Gertrudes"
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
@@ -60,7 +58,7 @@ const Navigation = () => {
               <span className="text-muted-foreground">(19) 99812-5074</span>
             </div>
             <Button asChild variant="default">
-              <a href="https://wa.me/5511995600235" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5519995600235" target="_blank" rel="noopener noreferrer">
                 Emergência 24h
               </a>
             </Button>
@@ -97,7 +95,7 @@ const Navigation = () => {
                   <span className="text-muted-foreground">(19) 99812-5074</span>
                 </div>
                 <Button asChild variant="default" className="w-full">
-                  <a href="https://wa.me/5511995600235" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/5519995600235" target="_blank" rel="noopener noreferrer">
                     Emergência 24h
                   </a>
                 </Button>

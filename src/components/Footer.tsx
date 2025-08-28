@@ -10,13 +10,11 @@ const Footer = () => {
           {/* Logo e Informações */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-primary-foreground/20 rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-bold">WA</span>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg">WA Empresa Funerária</h3>
-                <p className="text-primary-foreground/80 text-sm">Funerária Santa Gertrudes</p>
-              </div>
+              <img 
+                src="/lovable-uploads/fd866535-ad06-4645-8412-5fb9c247e28d.png" 
+                alt="WA Empresa Funerária - Funerária Santa Gertrudes"
+                className="h-10 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-primary-foreground/80 text-sm">
               Prestando serviços funerários com dignidade, respeito e humanização desde 1999.
@@ -40,8 +38,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <div>
-                  <a href="https://wa.me/5511995600235" className="text-sm hover:underline">
-                    (11) 99560-0235
+                  <a href="https://wa.me/5519995600235" className="text-sm hover:underline">
+                    (19) 99560-0235
                   </a>
                   <p className="text-primary-foreground/80 text-xs">WhatsApp</p>
                 </div>
