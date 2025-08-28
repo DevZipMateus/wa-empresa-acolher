@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -52,7 +51,7 @@ const ServicesCarousel = () => {
   ];
 
   const plugin = React.useRef(
-    Autoplay({ delay: 3000, stopOnInteraction: true })
+    Autoplay({ delay: 3000, stopOnInteraction: false })
   );
 
   return (
@@ -71,8 +70,6 @@ const ServicesCarousel = () => {
           <Carousel 
             className="w-full max-w-2xl"
             plugins={[plugin.current]}
-            onMouseEnter={plugin.current.stop}
-            onMouseLeave={plugin.current.reset}
           >
             <CarouselContent>
               {images.map((image, index) => (
@@ -111,7 +108,7 @@ const ServicesCarousel = () => {
 
         <div className="text-center mt-8">
           <p className="text-sm text-muted-foreground">
-            As imagens mudam automaticamente a cada 3 segundos. Passe o mouse sobre o carrossel para pausar.
+            As imagens mudam automaticamente a cada 3 segundos.
           </p>
         </div>
       </div>
