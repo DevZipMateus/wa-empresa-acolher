@@ -13,7 +13,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/fd866535-ad06-4645-8412-5fb9c247e28d.png" 
                 alt="WA Empresa Funerária - Funerária Santa Gertrudes"
-                className="h-12 w-auto object-contain filter brightness-0 invert"
+                className="h-12 w-auto object-contain"
               />
             </div>
             <p className="text-primary-foreground/80 text-sm">
@@ -112,10 +112,10 @@ const Footer = () => {
               © 2024 WA Empresa Funerária. Todos os direitos reservados.
             </p>
             <div className="flex space-x-6 text-sm">
-              <a href="/politica-privacidade" className="hover:underline text-primary-foreground/80">
+              <a href="/politica-privacidade" className="hover:underline text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 Política de Privacidade
               </a>
-              <a href="/termos-uso" className="hover:underline text-primary-foreground/80">
+              <a href="/termos-uso" className="hover:underline text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 Termos de Uso
               </a>
             </div>
