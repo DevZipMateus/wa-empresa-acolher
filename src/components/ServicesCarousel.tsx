@@ -69,7 +69,7 @@ const ServicesCarousel = () => {
 
         <div className="flex justify-center">
           <Carousel 
-            className="w-full max-w-xs"
+            className="w-full max-w-2xl"
             plugins={[plugin.current]}
             onMouseEnter={plugin.current.stop}
             onMouseLeave={plugin.current.reset}
