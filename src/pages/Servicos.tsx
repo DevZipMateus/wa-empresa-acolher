@@ -207,7 +207,7 @@ const Servicos = () => {
                   Ligar Agora: (19) 99560-0235
                 </a>
               </Button>
-              <Button size="lg" variant="outline" asChild className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              <Button size="lg" variant="secondary" asChild>
                 <a href="/planos">
                   Ver Planos
                 </a>
