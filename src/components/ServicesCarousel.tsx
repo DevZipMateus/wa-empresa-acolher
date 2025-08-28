@@ -74,15 +74,12 @@ const ServicesCarousel = () => {
                 <CarouselItem key={index}>
                   <div className="p-1">
                     <Card>
-                      <CardContent className="flex aspect-square items-center justify-center p-0">
-                        <div className="relative w-full h-full overflow-hidden rounded-lg">
-                          <img
-                            src={image.src}
-                            alt={image.alt}
-                            className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-                          />
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-                        </div>
+                      <CardContent className="flex aspect-square items-center justify-center p-6">
+                        <img
+                          src={image.src}
+                          alt={image.alt}
+                          className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-105"
+                        />
                       </CardContent>
                     </Card>
                   </div>
