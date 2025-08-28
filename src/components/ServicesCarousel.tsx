@@ -8,6 +8,11 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import {
+  Dialog,
+  DialogContent,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 import Autoplay from "embla-carousel-autoplay";
 
 const ServicesCarousel = () => {
@@ -75,11 +80,24 @@ const ServicesCarousel = () => {
                   <div className="p-1">
                     <Card>
                       <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <img
-                          src={image.src}
-                          alt={image.alt}
-                          className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-105"
-                        />
+                        <Dialog>
+                          <DialogTrigger asChild>
+                            <img
+                              src={image.src}
+                              alt={image.alt}
+                              className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-105 cursor-pointer"
+                            />
+                          </DialogTrigger>
+                          <DialogContent className="max-w-4xl w-full max-h-[90vh]">
+                            <div className="flex items-center justify-center">
+                              <img
+                                src={image.src}
+                                alt={image.alt}
+                                className="max-w-full max-h-[80vh] object-contain rounded-lg"
+                              />
+                            </div>
+                          </DialogContent>
+                        </Dialog>
                       </CardContent>
                     </Card>
                   </div>
