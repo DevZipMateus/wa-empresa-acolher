@@ -62,23 +62,20 @@ const ServicesCarousel = () => {
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto">
-          <Carousel
-            opts={{
-              align: "start",
-            }}
+        <div className="flex justify-center">
+          <Carousel 
+            className="w-full max-w-xs"
             plugins={[plugin.current]}
-            className="w-full"
             onMouseEnter={plugin.current.stop}
             onMouseLeave={plugin.current.reset}
           >
             <CarouselContent>
               {images.map((image, index) => (
-                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={index}>
                   <div className="p-1">
                     <Card>
-                      <CardContent className="p-0">
-                        <div className="relative aspect-video w-full overflow-hidden rounded-lg">
+                      <CardContent className="flex aspect-square items-center justify-center p-0">
+                        <div className="relative w-full h-full overflow-hidden rounded-lg">
                           <img
                             src={image.src}
                             alt={image.alt}
