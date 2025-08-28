@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Heart, Shield, Clock, Users, Phone, Star, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -33,12 +32,12 @@ const Index = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8 py-6">
-                <a href="https://wa.me/5511995600235" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5519995600235" target="_blank" rel="noopener noreferrer">
                   <Phone className="mr-2 w-5 h-5" />
                   Assistência 24h
                 </a>
               </Button>
-              <Button size="lg" variant="outline" asChild className="border-primary-foreground/60 text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6">
+              <Button size="lg" variant="secondary" asChild className="bg-background text-foreground hover:bg-background/90 border-2 border-background text-lg px-8 py-6">
                 <a href="/planos">
                   Conhecer Planos
                 </a>
