@@ -256,11 +256,6 @@ const Index = () => {
                   Falar Conosco Agora
                 </a>
               </Button>
-              <Button size="lg" variant="outline" asChild className="border-primary-foreground/60 text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                <a href="/contato">
-                  Ver Mais Contatos
-                </a>
-              </Button>
             </div>
           </div>
         </div>
