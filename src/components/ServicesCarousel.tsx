@@ -55,20 +55,20 @@ const ServicesCarousel = () => {
   );
 
   return (
-    <section className="py-20 bg-muted/20">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+    <section className="py-12 sm:py-16 lg:py-20 bg-muted/20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 lg:mb-16">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-4">
             Nossos Serviços e Instalações
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
             Conheça nossa estrutura completa e os serviços que oferecemos com qualidade e dignidade
           </p>
         </div>
 
         <div className="flex justify-center">
           <Carousel 
-            className="w-full max-w-2xl"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-2xl xl:max-w-3xl"
             plugins={[plugin.current]}
           >
             <CarouselContent>
@@ -76,7 +76,7 @@ const ServicesCarousel = () => {
                 <CarouselItem key={index}>
                   <div className="p-1">
                     <Card>
-                      <CardContent className="flex aspect-square items-center justify-center p-6">
+                      <CardContent className="flex aspect-square items-center justify-center p-3 sm:p-4 lg:p-6">
                         <Dialog>
                           <DialogTrigger asChild>
                             <img
@@ -85,7 +85,7 @@ const ServicesCarousel = () => {
                               className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-105 cursor-pointer"
                             />
                           </DialogTrigger>
-                          <DialogContent className="max-w-4xl w-full max-h-[90vh]">
+                          <DialogContent className="max-w-[90vw] sm:max-w-2xl lg:max-w-4xl w-full max-h-[90vh]">
                             <div className="flex items-center justify-center">
                               <img
                                 src={image.src}
@@ -101,12 +101,12 @@ const ServicesCarousel = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className="hidden sm:flex" />
+            <CarouselNext className="hidden sm:flex" />
           </Carousel>
         </div>
 
-        <div className="text-center mt-8">
+        <div className="text-center mt-6 sm:mt-8">
           <p className="text-sm text-muted-foreground">
             As imagens mudam automaticamente a cada 3 segundos.
           </p>
