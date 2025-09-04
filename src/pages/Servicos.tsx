@@ -19,7 +19,7 @@ const Servicos = () => {
       icon: Car,
       title: "Translado e Remoção",
       description: "Serviço de translado com veículos próprios e equipe especializada.",
-      details: ["Veículos próprios", "Translado até 100km", "Remoção domiciliar", "Transporte inter-hospitalar"]
+      details: ["Veículos próprios", "Translado nacional", "Translado internacional", "Remoção domiciliar", "Transporte inter-hospitalar"]
     },
     {
       icon: Home,
