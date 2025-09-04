@@ -40,29 +40,30 @@ const Sobre = () => {
                 </div>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  A WA Empresa Funerária foi fundada em 1999 com o propósito de oferecer um atendimento digno, 
-                  humanizado e respeitoso às famílias enlutadas. Desde o início, seus fundadores entenderam que, 
-                  nos momentos de perda, o que mais importa é ter ao lado profissionais preparados para acolher 
-                  com empatia e sensibilidade.
+                  A WA Empresa Funerária foi fundada em 1999, com o propósito de oferecer um atendimento digno, 
+                  humanizado e respeitoso às famílias enlutadas. Desde o início de suas atividades, seus fundadores 
+                  entenderam que, nos momentos de perda, o que mais importa é ter ao lado profissionais preparados 
+                  para acolher com empatia e sensibilidade.
                 </p>
 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Com dedicação e compromisso, a WA consolidou sua presença na cidade de Santa Gertrudes/SP e, 
-                  com o passar dos anos, expandiu seus serviços para atender também o município de Rio Claro e 
-                  toda a região. A empresa se tornou referência em serviços funerários pela qualidade no 
-                  atendimento, pela seriedade com que conduz cada cerimônia e pelo respeito à memória de quem parte.
+                  Com dedicação e compromisso, a WA consolidou sua presença na cidade de Santa Gertrudes e, com o 
+                  passar dos anos, expandiu seus serviços para atender também o município de Rio Claro e toda sua 
+                  microrregião. A empresa tornou-se referência em serviços funerários pela qualidade no atendimento, 
+                  seriedade com que conduz cada cerimônia e pelo respeito à memória de quem parte.
                 </p>
 
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Ao longo de sua trajetória, a WA investiu em estrutura, veículos próprios, planos acessíveis e 
-                  uma equipe altamente capacitada, disponível 24 horas por dia, todos os dias do ano. Seu foco 
-                  sempre foi – e continua sendo – oferecer suporte completo às famílias, desde os trâmites legais 
-                  até a realização de velórios e sepultamentos ou cremações, com serenidade, ética e profissionalismo.
+                  uma equipe altamente capacitada, disponível 24 horas por dia, todos os dias da semana. Seu foco 
+                  sempre foi – e continua sendo – oferecer suporte completo às famílias, desde os trâmites legais, 
+                  como documentações, informações até a realização de velórios, sepultamentos e cremações, com 
+                  serenidade, ética e profissionalismo.
                 </p>
 
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Com mais de duas décadas de atuação, a WA Empresa Funerária segue firme em sua missão de prestar 
-                  um serviço que valoriza a vida e respeita o luto, estando sempre presente quando mais se precisa.
+                  um serviço que valoriza a vida e respeita o luto acima de tudo.
                 </p>
               </CardContent>
             </Card>
