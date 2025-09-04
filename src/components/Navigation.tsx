@@ -53,10 +53,10 @@ const Navigation = () => {
           <div className="hidden xl:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm">
               <Phone className="w-4 h-4 text-primary" />
-              <span className="text-muted-foreground">(19) 99812-5074</span>
+              <span className="text-muted-foreground">(11) 99812-5074</span>
             </div>
             <Button asChild variant="default">
-              <a href="https://wa.me/5519995600235" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5511995600235" target="_blank" rel="noopener noreferrer">
                 Emergência 24h
               </a>
             </Button>
@@ -90,10 +90,10 @@ const Navigation = () => {
               <div className="pt-4 border-t border-border">
                 <div className="flex items-center space-x-2 text-sm mb-3">
                   <Phone className="w-4 h-4 text-primary" />
-                  <span className="text-muted-foreground">(19) 99812-5074</span>
+                  <span className="text-muted-foreground">(11) 99812-5074</span>
                 </div>
                 <Button asChild variant="default" className="w-full">
-                  <a href="https://wa.me/5519995600235" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/5511995600235" target="_blank" rel="noopener noreferrer">
                     Emergência 24h
                   </a>
                 </Button>

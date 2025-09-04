@@ -85,7 +85,7 @@ const Servicos = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="text-lg px-8 py-6">
-                <a href="https://wa.me/5519995600235" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5511995600235" target="_blank" rel="noopener noreferrer">
                   <Phone className="mr-2 w-5 h-5" />
                   Atendimento 24h
                 </a>
@@ -202,9 +202,9 @@ const Servicos = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
-                <a href="https://wa.me/5519995600235" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5511995600235" target="_blank" rel="noopener noreferrer">
                   <Phone className="mr-2 w-5 h-5" />
-                  Ligar Agora: (19) 99560-0235
+                  Ligar Agora: (11) 99560-0235
                 </a>
               </Button>
               <Button size="lg" variant="secondary" asChild>
@@ -230,15 +230,15 @@ const Servicos = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <a href="https://wa.me/5519995600235" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5511995600235" target="_blank" rel="noopener noreferrer">
                   <Phone className="mr-2 w-5 h-5" />
                   WhatsApp
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:1999812-5074">
+                <a href="tel:1199812-5074">
                   <Phone className="mr-2 w-5 h-5" />
-                  (19) 99812-5074
+                  (11) 99812-5074
                 </a>
               </Button>
             </div>

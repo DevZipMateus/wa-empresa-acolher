@@ -33,7 +33,7 @@ const Index = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8 py-6">
-                <a href="https://wa.me/5519995600235" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5511995600235" target="_blank" rel="noopener noreferrer">
                   <Phone className="mr-2 w-5 h-5" />
                   Assistência 24h
                 </a>
