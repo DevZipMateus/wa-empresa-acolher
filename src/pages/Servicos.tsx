@@ -204,7 +204,7 @@ const Servicos = () => {
               <Button size="lg" variant="secondary" asChild>
                 <a href="https://wa.me/5511995600235" target="_blank" rel="noopener noreferrer">
                   <Phone className="mr-2 w-5 h-5" />
-                  Ligar Agora: (11) 99560-0235
+                  Escritório: (11) 9 9560-0235
                 </a>
               </Button>
               <Button size="lg" variant="secondary" asChild>
@@ -236,9 +236,9 @@ const Servicos = () => {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:1199812-5074">
+                <a href="tel:1998125-3074">
                   <Phone className="mr-2 w-5 h-5" />
-                  (11) 99812-5074
+                  (19) 9 8125-3074
                 </a>
               </Button>
             </div>

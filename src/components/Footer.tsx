@@ -31,17 +31,17 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="text-sm">(11) 99812-5074</p>
-                  <p className="text-primary-foreground/80 text-xs">Assistência 24h</p>
+                  <p className="text-sm">(19) 9 8125-3074</p>
+                  <p className="text-primary-foreground/80 text-xs">Plantão 24h</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <div>
                   <a href="https://wa.me/5511995600235" className="text-sm hover:underline">
-                    (11) 99560-0235
+                    (11) 9 9560-0235
                   </a>
-                  <p className="text-primary-foreground/80 text-xs">WhatsApp</p>
+                  <p className="text-primary-foreground/80 text-xs">Escritório - 08:30 às 17:30</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
